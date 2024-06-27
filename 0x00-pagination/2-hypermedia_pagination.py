@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """task0"""
-import csv, math
+import csv
+import math
 from typing import List, Tuple, Dict
 
 
