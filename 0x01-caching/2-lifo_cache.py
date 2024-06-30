@@ -3,6 +3,7 @@
 """
 from base_caching import BaseCaching
 
+
 class LIFOCache(BaseCaching):
     """ LIFOCache is a caching system that inherits from BaseCaching
         It uses a Last-In, First-Out (LIFO) cache replacement policy
