@@ -5,6 +5,7 @@ from flask_babel import Babel
 
 
 class Config:
+    """tdyh jtdyj tdy j"""
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = 'en'
     BABEL_DEFAULT_TIMEZONE = 'UTC'
@@ -16,6 +17,7 @@ babel = Babel(app)
 
 @app.route('/')
 def index():
+    """tdyh jtdyj tdy j"""
     return render_template('1-index.html')
 
 
